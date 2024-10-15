@@ -26,8 +26,9 @@ header #logo {
 }
 
 nav {
+    margin: 0;
     flex: 1 1 100vw;
-    height: 97px;
+    height: 100px;
     align-items: center;
     justify-content: flex-end;
 }
@@ -93,6 +94,6 @@ a {
         margin: 0;
         display: none;
         opacity: 0;
-        transition: 0.3s;
+        transition: 0.5s;
     }
 }

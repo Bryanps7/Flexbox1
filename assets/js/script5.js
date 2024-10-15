@@ -21,3 +21,11 @@ closeMenu.addEventListener('click', ()=>{
         openMenu.style.display = 'block'
     },200)
 })
+
+function scramOpenMenu() {
+    openMenu.style.display = 'none'
+}
+
+window.addEventListener('resize', () => {
+    if(window.innerWidth > 717) { scramOpenMenu() }
+})
